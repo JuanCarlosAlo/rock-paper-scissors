@@ -404,5 +404,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.main__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  background-image: url(../assets/images/bg-triangle.svg);
+}
 
 /* ESTILOS DEL FOOTER */
