@@ -1,0 +1,14 @@
+.first-phase{
+    display: none;
+    background-image: url(../assets/images/bg-triangle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.first-phase--show{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+      
+}

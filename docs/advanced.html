@@ -16,7 +16,54 @@
   </head>
 
   <body>
-    <main id="main" class="main"></main>
+    <header class="header">
+     <div class="header-container">
+      <p class="text">YOU</p>
+      <p class="text" id="points-you">0</p>
+     </div>
+     <h1 class="header__title">ROCK<br>PAPER<br>SCISSIRS</h1>
+     <div class="header-container">
+      <p class="text">PC</p>
+      <p class="text" id="points-pc">0</p>
+     </div>
+    </header>
+    <main id="main" class="main">
+      <div id="first-phase" class="first-phase first-phase--show">
+        <div  class="game-item">
+          <img id="paper" src="assets/images/icon-paper.svg" alt="">
+        </div>
+        <div  class="game-item">
+          <img id="scissors" src="assets/images/icon-scissors.svg" alt="">
+        </div>
+        <div  class="game-item">
+          <img id="rock" src="assets/images/icon-rock.svg" alt="">
+        </div>
+        <div  class="game-item">
+          <img id="lizard" src="assets/images/icon-lizard.svg" alt="">
+        </div>
+        <div  class="game-item">
+          <img id="spock" src="assets/images/icon-spock.svg" alt="">
+        </div>
+      </div>
+      <div id="second-phase" class="second-phase">
+        <div class="option-container">
+          <h3 class="text" class="option__title">Your pick</h3>
+          <div  class="result-item">
+          <img id="user-pick-img" src="" alt="">
+        </div>
+        </div>
+        <div class="result__container">
+          <h2 class="text" id="result-content"></h2>
+          <button id="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="option-container">
+          <h3 class="text" class="option__title">PC pick</h3>
+          <div  class="result-item">
+          <img id="pc-pick-img" src="" alt="">
+        </div>
+        </div>
+      </div>
+    </main>
     <script src="js/scripts.js"></script>
   </body>
 </html>

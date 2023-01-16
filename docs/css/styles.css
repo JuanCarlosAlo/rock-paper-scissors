@@ -375,8 +375,10 @@ a {
 }
 
 body {
+  font-size: 16px;
   max-width: 1440px;
   height: 100vh;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   padding: 3rem 0;
@@ -397,6 +399,21 @@ body {
   font-size: 3rem;
 }
 
+.header__title {
+  font-size: 3rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  color: black;
+  background-color: white;
+}
+
 .main {
   padding: 3rem;
   max-width: 700px;
@@ -404,12 +421,76 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.main__container {
+
+.text {
+  margin: 0;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.game-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 10px red;
+  background-color: white;
+}
+
+.result-item {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: solid 10px red;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.result__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.option-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ESTILOS DEL FOOTER */
+.first-phase {
+  display: none;
+  background-image: url(../assets/images/bg-triangle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.first-phase--show {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 3.5rem;
-  background-image: url(../assets/images/bg-triangle.svg);
 }
 
-/* ESTILOS DEL FOOTER */
+.second-phase {
+  display: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.second-phase--show {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}

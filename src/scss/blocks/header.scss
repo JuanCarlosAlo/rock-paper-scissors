@@ -9,3 +9,19 @@
   border-radius: 1rem;
   font-size: 3rem;
 }
+
+.header__title{
+  font-size: 3rem;
+  
+}
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height:150px;
+  color: black;
+  background-color: white;
+}

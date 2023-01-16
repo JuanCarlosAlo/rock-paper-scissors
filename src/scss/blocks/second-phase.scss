@@ -1,0 +1,14 @@
+.second-phase{
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second-phase--show{
+    display: flex;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    
+}
